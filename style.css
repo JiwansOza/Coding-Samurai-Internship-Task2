@@ -6,6 +6,16 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+body{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(135deg, #ffffff, #e1e2e5);
+}
+::selection{
+  color: #fff;
+  background: #3C87FF;
+}
 h1{
   position: relative;
   margin:  50px auto;
@@ -14,23 +24,18 @@ h1{
   color: #000000;
   text-align: center;
 }
-body{
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  background: linear-gradient(135deg, #f1f9ff, #d3d3d3);
-}
-::selection{
-  color: #fff;
-  background: #9dc3ff;
-}
 .wrapper{
   max-width: 405px;
   padding: 28px 0 30px;
-  margin: 50px auto;
+  margin: 60px auto;
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.priority-select
+{
+  
+  margin-bottom: 20px;
 }
 .task-input{
   height: 52px;
